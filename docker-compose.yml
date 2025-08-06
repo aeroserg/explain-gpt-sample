@@ -1,0 +1,7 @@
+services:
+  egpt-spa:
+    build: .
+    ports:
+      - "3000:80"
+    container_name: egpt-spa_c
+    restart: unless-stopped
